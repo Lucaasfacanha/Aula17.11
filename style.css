@@ -1,5 +1,51 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  background-color: rgb(135, 123, 123);
+}
+
+header {
+  padding: 20px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menuPrincipal {
+  width: 150px;
+  background-color: rgb(91, 99, 99);
+}
+
+.buttonBurguer {
+  width: 100%;
+  border: 1px solid black;
+  background-color: rgb(91, 99, 99);
+  padding: 10px;
+  gap: 20px;
+}
+
+.CategoriaMusica {
+  width: 100%;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  gap: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttonCategoria {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buttonCategoria svg {
+  position: relative;
+  top: 1px;
 }
